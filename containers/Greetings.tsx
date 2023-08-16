@@ -75,7 +75,6 @@ const Greetings = () => {
                   <GreetingLottie animationPath="/lottie/coding.json" />
                 </Col>
               </Row>
-              <div id="pph-hireme"></div>
             </div>
           </Container>
           {/* SVG separator */}

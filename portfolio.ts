@@ -12,20 +12,20 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Daniel Alexander',
+  name: 'Christian Aurano',
   title: "Hi everyone",
   intros: [
-    'I am Daniel Alexander',
-    'Full Stack Web Developer',
+    'I am Christian Aurano',
+    'Full Stack Web & Mobile Developer',
     'Top - Best quality, best speed',
     'Super - Looking for new challenge',
     'Smart - Concise and clean code',
   ],
   description:
-    `I'm passionate Full Stack web developer having good experience of web applications with Laravel, Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.
+    `I'm passionate Full Stack Web & Mobile Developer having good experience of web applications with Laravel, Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.
     And I'm also familiar in mobile app development with Flutter, Swift, React Native.`,
   resumeLink:
-    '/img/daniel.pdf',
+    '/img/Christian.pdf',
 };
 
 export const openSource = {
@@ -34,7 +34,7 @@ export const openSource = {
 
 export const contact = {
   image: '/img/avatar/avatar.jpg',
-  location: 'Hamburg, Germany',
+  location: 'Brighton, England',
   bio: 'Top, Super, Smart Developer',
 };
 
@@ -44,7 +44,7 @@ export const socialLinks: SocialLinksType = {
   instagram: 'https://www.instagram.com',
   facebook: 'https://www.facebook.com',
   twitter: 'https://twitter.com',
-  mail: 'mailto:topdev9358@gmail.com',
+  mail: 'mailto:christianaurano@gmail.com',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -216,11 +216,11 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Mobile',
-    progressPercentage: '60',
+    progressPercentage: '74',
   },
   {
     Stack: 'Game',
-    progressPercentage: '75',
+    progressPercentage: '60',
   },
   {
     Stack: 'Blockchain',
@@ -230,9 +230,9 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Technical University of Applied Sciences',
-    subHeader: 'Bachelor of Computer Science',
-    duration: 'October 2008 - May 2012',
+    schoolName: 'University of Westminster',
+    subHeader: "Bachelor's Degree",
+    duration: 'August 2009 - May 2013',
     desc: 'Graduated with High Honors.',
     grade: 'Grade A',
     descBullets: [
@@ -242,32 +242,25 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: 'Freelance Web Developer',
+    company: 'Upwork, Fiverr, PeoplePerHour',
+    companyLogo: '/img/icons/common/upwork.jpg',
+    date: 'Aug 2022 - Present',
+    desc: 'Skills: Unity · Python (Programming Language) · React Native · Nuxt.js · Next.js · React.js',
+  },
+  {
     role: 'Full Stack Developer',
-    company: 'Kinex Media',
+    company: 'AITEC',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'February 2021 - August 2022',
-    desc: 'I worked as full stack web developer to design web based admin dashboards for mulitple apps using Laravel, Vue, Chart.js and some other libraries. Special solution for managing remote devices and controllers by different users and users groups for co-working spaces around the world.',
+    date: 'Mar 2020 - Aug 2022',
+    desc: "Skills: Next.js · React.js · Full-Stack Development · Laravel · Vue.js · REST APIs",
   },
   {
-    role: 'Web and Mobile Developer',
-    company: 'United Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'April 2020 - March 2021',
-    desc: "I worked as Web and Mobile developer on a Fitness and Delivery App. Participated in designing the University's new mobile app for students with Figma. Implemented the project's basic structure in Next.js and React Native.",
-  },
-  {
-    role: 'Software Developer',
-    company: 'Zeon IT Hub',
+    role: 'Back End Developer',
+    company: 'Wealth Legatus',
     companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'September 2018 - May 2020',
-    desc: 'Worked as .NET developer to create a website in which I integrated computer vision AI model. Gained extensive knowledge in banking policies, procedures, products, and services. Skills learned carried over to my software development career.',
-  },
-  {
-    role: 'Front End Developer',
-    company: 'Aleph Engineering GmbH',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'May 2014 - February 2018',
-    desc: 'The solution helped customers to form target groups and optimize upstream campaigns to create added value. Effective multichannel solutions to sustainably increase customer business success by establishing and consolidating profitable relationships.',
+    date: 'Jul 2018 - Jan 2020',
+    desc: 'Skills: Python (Programming Language) · Django REST Framework · TensorFlow · PostgreSQL',
   },
 ];
 
@@ -314,10 +307,6 @@ export const feedbacks: FeedbackType[] = [
     name: 'Nitin R.',
     feedback:'A good developer who worked quickly and was great with communications, delivered exactly what I needed, I will definitely use him again.',
   },
-  {
-    name: 'Paula O.',
-    feedback:"Didn't fix my wordpress site like promised. Had no clue how to fix things according to instructions for a simple theme and instead kept asking me when he was the hired help.",
-  },
 ];
 
 // option to hide or show the ContactUs component
@@ -325,15 +314,15 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Portfolio - Daniel Alexander',
+  title: 'Portfolio - Christian Aurano',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Daniel Alexander',
+    'A passionate Full Stack Web & Mobile Developer.',
+  author: 'Christian Aurano',
   image: '/img/avatar/avatar.jpg',
   url: 'https://topsupersmart.com',
   keywords: [
-    'Daniel',
-    'Daniel Alexander',
+    'Christian',
+    'Christian Aurano',
     'Valuemark',
     'Portfolio',
     'Top',
@@ -342,6 +331,8 @@ export const seoData: SEODataType = {
     'Full Stack',
     'Full-Stack',
     'Full Stack Developer',
-    'Full-Stack Developer'
+    'Full-Stack Developer',
+    'Web',
+    'Mobile',
   ],
 };
